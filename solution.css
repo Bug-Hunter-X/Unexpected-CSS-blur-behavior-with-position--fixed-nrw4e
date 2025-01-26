@@ -1,0 +1,17 @@
+/* solution.css */
+.container {
+  position: relative; /* Changed to relative positioning */
+  width: 500px;
+  height: 300px;
+  background-color: #f0f0f0;
+}
+
+.blurred-element {
+  position: absolute; /* Changed to absolute positioning */
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  height: 150px;
+  background-color: #007bff;
+  filter: blur(5px);
+}
